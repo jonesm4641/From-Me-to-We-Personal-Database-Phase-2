@@ -1,0 +1,87 @@
+Team Roles & Responsibilities
+
+
+1. Project Management – Marc-Anthony Jones, Winnie, Argenis
+
+Oversees the entire project timeline and deliverables.
+
+Makes sure the team stays on track and meets deadlines.
+
+Coordinates between roles (designers, migrator, QA, documentation).
+
+Final decision maker if conflicts arise about schema or approach.
+
+Ensures the final package (SQL dump, ERD, README) is complete and consistent.
+
+
+2. Schema Designers – Amarlin & Miriangie
+
+Analyze all individual Phase 1 databases.
+
+Design the unified Phase 2 schema (which we just created).
+
+Ensure normalization (no duplicates, consistent naming).
+
+Create or refine the ER Diagram that represents the team schema.
+
+Work closely with Data Migrator (Ashlynn) to ensure the schema supports the data.
+
+Prepares the final ERD diagram file to be submitted.
+
+
+3. Data Migrator – Ashlynn Jackson 
+Responsible for moving data from each person’s Phase 1 database into the unified schema.
+
+Writes and runs the INSERT scripts that populate the new tables.
+
+Handles transformation (adapting old table structures to fit the new schema).
+
+Ensures foreign keys link correctly (e.g., education → person + institution).
+
+Works closely with Schema Designers and QA to troubleshoot insertion issues.
+
+
+4. QA Testers – Larry, Lisbeth, & Monet
+
+Test the unified database once data is inserted.
+
+Run queries to check:
+
+Primary/foreign key relationships are intact.
+
+No missing or duplicate records.
+
+Data looks correct (e.g., emails are valid, grad years are accurate).
+
+Stress-test queries (joins across multiple tables).
+
+Report bugs or issues back to the team for fixes.
+
+
+5. Documentation Lead – Jeremi Samuel
+
+Creates the README for the final project.
+
+Documents:
+
+How the unified schema was designed.
+
+Mapping decisions (why certain columns were merged or renamed).
+
+Challenges faced and how the team solved them.
+
+Roles and contributions of each member.
+
+Ensures everything is written clearly for professor review.
+
+6. Unassigned – Monet & Winnie
+
+Currently not assigned specific tasks in the updated file.
+
+Possible roles they can take on (depending on team agreement):
+
+Support Migrator → help Ashlynn with data inserts.
+
+Extra QA → help Larry & Lisbeth run validation queries.
+
+Research/Presentation Support → help Jeremi polish documentation and ERD.
