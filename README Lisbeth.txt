@@ -1,0 +1,4 @@
+README 
+lisbethdb
+
+This project is a personal relational database built in SQLite as part of an assignment. I created three connected tables: BasicInfo, Education, and Interests. BasicInfo holds the core profile details (name, age, and hometown) for myself and four friends. Education stores our degree programs and graduation years, and Interests records hobbies and skills. The tables are linked by a shared primary key, `person_id`, which ensures that each education and interest record ties back to the right person. While this database is intentionally small, it clearly demonstrates the fundamentals of relational design: primary keys, foreign keys, and one-to-many relationships. It is simple, structured, and functional, a starter “profile database” that could easily be expanded further if needed.
